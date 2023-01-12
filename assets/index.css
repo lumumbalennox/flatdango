@@ -1,0 +1,64 @@
+body {
+  /*background-color: #ebebeb;*/
+  background-color: #f6f2f2;
+}
+
+.heading {
+  background-color: #333333;
+  margin-bottom: 20px;
+  padding: 5px 0px 5px 15px;
+}
+
+.title {
+  background-color: #333333;
+  padding: 5px;
+  color: white;
+}
+
+#runtime {
+  background-color: #333333;
+  color: #3e8fde;
+  padding: 0px 0px 5px 5px;
+}
+
+.content {
+  color: #3e8fde;
+}
+
+#subtitle {
+  color: white;
+  margin-left: 55px;
+}
+
+#showing {
+  margin-left: 20px;
+}
+
+#films li::before {
+  content: "";
+  list-style: none;
+  position: relative;
+  margin: 2px;
+  padding: 0.5em0.5em0.5em 2em;
+  background: lightgray;
+}
+li:hover {
+background-color: #3e8fde;
+}
+
+.film {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.sold-out {
+  color: lightgray;
+}
+
+img {
+  max-width: 25vw;
+}
+
+#film-info {
+  padding-bottom: 15px;
+}
