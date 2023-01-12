@@ -33,8 +33,7 @@ function firstFilmDetails(){
             if (count >0){
             count--;
             }
-            totalCount.innerHTML = count;
-            
+            totalCount.innerHTML = count;  
     };
        document.getElementById("buy-ticket").addEventListener("click", handleDecrement);
          
